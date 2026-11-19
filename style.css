@@ -1,0 +1,83 @@
+/* Chubby's gentle styles */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9fb;
+    color: #444;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.welcome h1 {
+    color: #5a87a0;
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.welcome p {
+    color: #7a8890;
+}
+
+section {
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+h2 {
+    color: #5a87a0;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+figure {
+    margin: 0;
+    text-shadow: none;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+figure img:hover {
+    transform: scale(1.02);
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+p {
+    margin-bottom: 1em;
+}

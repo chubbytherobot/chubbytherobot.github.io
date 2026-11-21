@@ -39,6 +39,36 @@ h2 {
     margin-bottom: 15px;
 }
 
+/* Diary Notes */
+.notes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.note {
+    background-color: #fcfcfc;
+    border-left: 3px solid #5a87a0;
+    padding: 10px 15px;
+    border-radius: 0 8px 8px 0;
+    position: relative;
+}
+
+.note-time {
+    display: block;
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.note p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Gallery */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
